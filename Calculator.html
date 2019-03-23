@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>KALKULATOR</title>
+    <style>
+		.bg-kuning {
+			background: yellow;
+		}
+
+		.bg-biru {
+			background: blue;
+		}
+		.bg-pink {
+			background: pink;
+		}
+
+		.halo {
+			border: 1px solid red;
+		}
+
+		.bold {
+			font-weight: bold;
+		}
+		.warna{
+			color: blue ;
+		}
+    
+		.kng{
+			color:yellow; 
+		}
+        
+		.hj{
+			color: green 
+		}
+	</style>
+    </head>
+<body>
+        <h1 class="bold warna bg-pink"> KALKULATOR SEDERHANA :</h1>
+	<form name="Calc">
+        <table border=4>
+            <tr>
+                <td>
+                    <input type="text" name="input" size="16" /><br/>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                   <input class="warna bg-pink" type="button" value="1" onclick="calc.input.value += '1'"/>
+                   <input class="warna bg-pink" type="button" value="2" onclick="calc.input.value += '2'"/>
+                   <input class="warna bg-pink" type="button" value="3" onclick="calc.input.value += '3'"/>
+                   <input class="hj bg-pink" type="button" value="+" onclick="calc.input.value += '+'"/> <br/>
+                   <input class="warna bg-pink" type="button" value="4" onclick="calc.input.value += '4'"/>
+                   <input class="warna bg-pink" type="button" value="5" onclick="calc.input.value += '5'"/>
+                   <input class="warna bg-pink" type="button" value="6" onclick="calc.input.value += '6'"/>
+                   <input class="hj bg-pink"  type="button" value="-" onclick="calc.input.value += '-'"/> <br/>
+                   <input class="warna bg-pink" type="button" value="7" onclick="calc.input.value += '7'"/>
+                   <input class="warna bg-pink" type="button" value="8" onclick="calc.input.value += '8'"/>
+                   <input class="warna bg-pink" type="button" value="9" onclick="calc.input.value += '9'"/>
+                   <input class="hj bg-pink" type="button" value="x" onclick="calc.input.value += '*'"/> <br/>
+                   <input class="hj bg-pink" type="button" value="c" onclick="calc.input.value += ''"/>
+                   <input class="warna bg-pink" type="button" value="0" onclick="calc.input.value += '0'"/>
+                   <input class="hj bg-pink" type="button" value="=" onclick="calc.input.value = eval (calc.input.value)"/>
+                   <input class="hj bg-pink" type="button" value="/" onclick="calc.input.value += '/'"/>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>  
+</html>
+
+
+
+
+
+
